@@ -8,7 +8,7 @@ function closestValueInBst(tree, target, closest = Infinity){
     }else if(currentNode.value < target){
       currentNode = currentNode.left // move to the left substree
     }else if(currentNode.value > target){
-      currentNode = currentNode.right // ,ove to the right subtree
+      currentNode = currentNode.right // move to the right subtree
     }else{
       break;
     }
