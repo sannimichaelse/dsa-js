@@ -72,5 +72,6 @@ function checkIfHtmlTagsAreBalanced(htmlTag){
   return incompleteElement;
 }
 
-console.log(checkIfHtmlTagsAreBalanced("<p><b>name</b>"))
+console.log(checkIfHtmlTagsAreBalanced("<p><b>name</b>")) // p
+console.log(checkIfHtmlTagsAreBalanced("<p><b>name</b></p>")) // true
 
